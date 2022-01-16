@@ -43,6 +43,35 @@ public class Autonomous_Base extends LinearOpMode {
 
 
     // autonomous drive functions:
+    double moveForward1;
+    double moveForward2;
+    double moveForward3;
+    double moveForward4;
+    double moveForward5;
+    double moveForward6;
+    double moveForward7;
+    double moveForward8;
+    double moveForward9;
+
+    double moveLeft1;
+    double moveLeft2;
+    double moveLeft3;
+    double moveLeft4;
+    double moveLeft5;
+    double moveLeft6;
+    double moveLeft7;
+    double moveLeft8;
+    double moveLeft9;
+
+    double moveRight1;
+    double moveRight2;
+    double moveRight3;
+    double moveRight4;
+    double moveRight5;
+    double moveRight6;
+    double moveRight7;
+    double moveRight8;
+    double moveRight9;
 
     // drive
     public void drive(double left, double right) {
@@ -70,6 +99,16 @@ public class Autonomous_Base extends LinearOpMode {
         sleep(100);
     }
 
+    moveForward1 = moveForward() * .1;
+    moveForward2 = moveForward() * .2;
+    moveForward3 = moveForward() * .3;
+    moveForward4 = moveForward() * .4;
+    moveForward5 = moveForward() * .5;
+    moveForward6 = moveForward() * .6;
+    moveForward7 = moveForward() * .7;
+    moveForward8 = moveForward() * .8;
+    moveForward9 = moveForward() * .9;
+
     // backwards
     public void moveBackwards() {
         robot.leftFrontDrive.setPower(1);
@@ -87,6 +126,16 @@ public class Autonomous_Base extends LinearOpMode {
         robot.rightBackDrive.setPower(-1);
         sleep(100);
     }
+    moveLeft1 = moveLeft() * .1;
+    moveLeft2 = moveLeft() * .2;
+    moveLeft3 = moveLeft() * .3;
+    moveLeft4 = moveLeft() * .4;
+    moveLeft5 = moveLeft() * .5;
+    moveLeft6 = moveLeft() * .6;
+    moveLeft7 = moveLeft() * .7;
+    moveLeft8 = moveLeft() * .8;
+    moveLeft9 = moveLeft() * .9;
+
 
     // right
     public void moveRight() {
@@ -96,4 +145,16 @@ public class Autonomous_Base extends LinearOpMode {
         robot.rightBackDrive.setPower(1);
         sleep(100);
     }
+
+    moveRight1 = moveRight() * .1;
+    moveRight2 = moveRight() * .2;
+    moveRight3 = moveRight() * .3;
+    moveRight4 = moveRight() * .4;
+    moveRight5 = moveRight() * .5;
+    moveRight6 = moveRight() * .6;
+    moveRight7 = moveRight() * .7;
+    moveRight8 = moveRight() * .8;
+    moveRight9 = moveRight() * .9;
+
+   
 }
